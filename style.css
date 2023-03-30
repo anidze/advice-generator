@@ -49,6 +49,9 @@ p{
     background-color: #52fba9; 
     margin: 25px;
 }
+.dashCircle:hover{
+  box-shadow: -3px -6px 24px 20px rgba(82,251,169,0.75);
+}
 .dashCircle > img{
     height: 25px;
     width: 25px;
