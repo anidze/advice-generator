@@ -1,7 +1,6 @@
 let adviceN=document.querySelector('#adviceN');
 let adviceTxt=document.querySelector('#adviceTxt');
-console.log(adviceN)
-console.log(adviceTxt)
+
 
 
 const dataForAdvice =async () => {
@@ -12,5 +11,6 @@ const dataForAdvice =async () => {
     adviceN.innerHTML=`# ${slip.id}`
 }
 dataForAdvice();
+
 let dashCircle=document.querySelector('.dashCircle');
 dashCircle.addEventListener('click', dataForAdvice)
